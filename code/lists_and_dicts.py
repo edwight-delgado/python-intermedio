@@ -1,4 +1,4 @@
-def main():
+def my_list_and_dict():
 	""" lists and dicts """
 	my_list=[1,'verdad',True,4.5]
 	my_dict={'firstname':'edwight','lastname':'delgado'}
@@ -26,5 +26,7 @@ def main():
 		for key, value in lista.items():
 			print(f'{key},{value}')
 
+	
+	return superdict
 if __name__ == '__main__':
-	main()
+	my_list_and_dict()
